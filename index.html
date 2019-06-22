@@ -1,132 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bootstrap About | Elizabeth Bodzy</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Bootstrap Portfolio</title>
 </head>
 <body>
 
-    <style>
-
-        .info {
-            width: 960px;
-            margin: 0 auto;
-            padding-top: 20px;
-            
-        }
-        .navbar {
-            border-bottom: 2px solid #cccccc;
-        }
-
-        .navbar-brand {
-            background-color:#4aaaa5;
-            padding: 10px;
-            color: white;
-            font-family: 'Georgia', Times, Times New Roman, serif;
-            font-size: 24px;
-        }
-        .navbar-nav {
-            margin-left: 700px;
-            
-        }
-
-        .nav-link {
-            color: #747474;
-        }
-
-        .me {
-          width: 65%;
-          height: 70vh;
-          padding-bottom: 40px;
-        }
-
-        h2 {
-        color: #4aaaa5;
-        padding-top: 20px;
-        border-bottom: 2px solid #cccccc;
-        margin-top: 0px;
-        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-        }
-
-        p {
-          text-align: center;
-          color: #777777;
-          font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-          font-weight: 300;
-          /* padding-left: 20px;
-          padding-right: 50px; */
-          padding-top: 30px;
-          line-height: 30px;
-          }
-
-        footer {
-          text-align: center;
-          background-color: #666666;
-          color: #777777;
-          position: fixed;
-          /* left: 0; */
-          bottom: 0; 
-          width: 954px;
-          border-top: 8px solid #4aaaa5;
-        }
-    
-    </style>
-    
-    <nav class="navbar navbar-expand-lg bg-light">
-        <a class="navbar-brand" href="#">Elizabeth Bodzy</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">ABOUT <span class="sr-only">(current)</span></a> 
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
-            </li>
-            
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">CONTACT</a>
-            </li>
-          </ul>
+  <header id="main-header">
+    <div class="container">
+      <a href="index.html" id="logo">Elizabeth Bodzy</a> 
+   
+  
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
           
-        </div>
-      </nav>
-      <div class="info"> 
-      <h2> About Me</h2>
-
-      
-      <div class="row">
-          <div class="col-sm-4">
-              <img class="me" src="./assets/images/me.jpg">
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+              <a class="nav-item nav-link" href="contact.html">Contact</a>
+              
+            </div>
           </div>
-          <div class="col-lg-8">
-              <p> Hey my name is Elizabeth Bodzy. I am a graphic designer living in Dallas, Texas. I have 
-                  had the experience of living in New York City as I attended graduate school at Parsons 
-                  School of Design. I graduated in May 2017 with a MFA in Design and Technology. I attended
-                  University of Arizona prior to Parsons, studying and graduating with a BFA in Visual 
-                  Communications - with a focus in graphic design. </p>
-
-                  <p> I am currently enrolled in a full-stack development course at SMU, and I look forward
-                      to learning and developing my career. I am excited to see where this course takes me, in 
-                      hopes of combining my design career with my development path. </p>
-                  </div> 
-        </div> 
-        
-        <footer> &copy; Elizabeth Bodzy 2019 </footer>
-    </div>
-
+        </nav>
+      </div>
+    </header>
     
+  
+  <!-- <header id="main-header">
+    <div class="container">
+      <a href="index.html" id="logo">Elizabeth Bodzy</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header> -->
 
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>About Me</h1>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <img src="assets/images/me.jpg" class="auth-image" alt="me.jpg">
+
+      <p> Hey my name is Elizabeth Bodzy. I am a graphic designer living in Dallas, Texas. I have 
+        had the experience of living in New York City as I attended graduate school at Parsons 
+        School of Design. I graduated in May 2017 with a MFA in Design and Technology. I attended
+        University of Arizona prior to Parsons, studying and graduating with a BFA in Visual 
+        Communications - with a focus in graphic design. </p>
+
+      <p> I am currently enrolled in a full-stack development course at SMU, and I look forward
+          to learning and developing my career. I am excited to see where this course takes me, in 
+          hopes of combining my design career with my development path. </p>
+
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+       &copy; Elizabeth Bodzy 2019
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
+
 </html>
