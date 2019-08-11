@@ -34,9 +34,11 @@ body {
   h1,
   h2,
   h3 {
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-weight: 700;
-    color: #4aaaa5;
+    /* font-family: Georgia, Times, "Times New Roman", serif; */
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    /* color: #4aaaa5; */
+    color: #03324d;
   }
   
   h1 {
@@ -44,11 +46,17 @@ body {
     font-size: 30px;
     line-height: 49px;
     border-bottom: 3px solid #dddddd;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
   }
   
   h2,
   h3 {
     font-size: 22px;
+  }
+
+  .portfolio-title {
+    text-align: center;
   }
   
   /* header */
@@ -334,6 +342,10 @@ a:link {
 	text-transform: uppercase;
 	padding-bottom: 20px;
 	text-align: center;
+}
+
+.github {
+  margin-left: 30px;
 }
 
   
